@@ -9,6 +9,7 @@
         // 어떤 환경에서 코드를 실행하는 지 지정
         "lib": ["ES6", "DOM"],
         "strict": true,
-        "allowJs": true
+        "esModuleInterop": true,
+        "module": "CommonJS",
     }
 }
